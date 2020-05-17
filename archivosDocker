@@ -1,0 +1,162 @@
+/etc/docker
+/run/docker
+/home/docker
+/usr/bin/docker
+/usr/libexec/docker
+/usr/share/bash-completion/completions/docker
+/var/lib/docker
+/var/spool/mail/docker
+/etc/docker:
+total 4
+-rw-------. 1 root root 244 May 17 16:41 key.json
+/run/docker:
+total 0
+drwx------. 2 root root 40 May 17 16:41 swarm
+drw-------. 2 root root 60 May 17 16:41 libnetwork
+drwx------. 2 root root 40 May 17 16:41 plugins
+srwxr-xr-x. 1 root root  0 May 17 16:41 metrics.sock
+
+/run/docker/swarm:
+total 0
+
+/run/docker/libnetwork:
+total 0
+srw-------. 1 root root 0 May 17 16:41 2842e996983c.sock
+
+/run/docker/plugins:
+total 0
+/home/docker:
+total 0
+/usr/libexec/docker:
+total 4
+drwxr-xr-x. 2 root root 4096 May 11 11:29 cli-plugins
+
+/usr/libexec/docker/cli-plugins:
+total 85348
+-rwxr-xr-x. 1 root root 44784352 Mar 10 21:30 docker-app
+-rwxr-xr-x. 1 root root 42610472 Mar 10 21:30 docker-buildx
+/var/lib/docker:
+total 48
+drwx------. 2 root root 4096 May 17 16:41 tmp
+drwx--x--x. 4 root root 4096 May 17 16:41 buildkit
+drwx------. 2 root root 4096 May 17 16:41 builder
+drwx------. 2 root root 4096 May 17 16:41 swarm
+drwx------. 3 root root 4096 May 17 16:41 overlay2
+drwxr-x---. 3 root root 4096 May 17 16:41 network
+drwx------. 2 root root 4096 May 17 16:41 trust
+drwx------. 3 root root 4096 May 17 16:41 image
+drwx------. 2 root root 4096 May 17 16:41 volumes
+drwx------. 4 root root 4096 May 17 16:41 plugins
+drwx------. 2 root root 4096 May 17 16:41 containers
+drwx------. 2 root root 4096 May 17 16:41 runtimes
+
+/var/lib/docker/tmp:
+total 0
+
+/var/lib/docker/buildkit:
+total 64
+-rw-------. 1 root root 32768 May 17 16:41 cache.db
+drwx--x--x. 2 root root  4096 May 17 16:41 executor
+drwxr-xr-x. 3 root root  4096 May 17 16:41 content
+-rw-------. 1 root root 16384 May 17 16:41 metadata.db
+-rw-------. 1 root root 16384 May 17 16:41 snapshots.db
+
+/var/lib/docker/buildkit/executor:
+total 0
+
+/var/lib/docker/buildkit/content:
+total 4
+drwxr-xr-x. 2 root root 4096 May 17 16:41 ingest
+
+/var/lib/docker/buildkit/content/ingest:
+total 0
+
+/var/lib/docker/builder:
+total 16
+-rw-------. 1 root root 16384 May 17 16:41 fscache.db
+
+/var/lib/docker/swarm:
+total 0
+
+/var/lib/docker/overlay2:
+total 4
+drwx------. 2 root root 4096 May 17 16:41 l
+
+/var/lib/docker/overlay2/l:
+total 0
+
+/var/lib/docker/network:
+total 4
+drwxr-x---. 2 root root 4096 May 17 16:41 files
+
+/var/lib/docker/network/files:
+total 32
+-rw-r--r--. 1 root root 65536 May 17 16:41 local-kv.db
+
+/var/lib/docker/trust:
+total 0
+
+/var/lib/docker/image:
+total 4
+drwx------. 5 root root 4096 May 17 16:41 overlay2
+
+/var/lib/docker/image/overlay2:
+total 16
+drwx------. 2 root root 4096 May 17 16:41 distribution
+-rw-------. 1 root root   19 May 17 16:41 repositories.json
+drwx------. 4 root root 4096 May 17 16:41 imagedb
+drwx------. 2 root root 4096 May 17 16:41 layerdb
+
+/var/lib/docker/image/overlay2/distribution:
+total 0
+
+/var/lib/docker/image/overlay2/imagedb:
+total 8
+drwx------. 3 root root 4096 May 17 16:41 content
+drwx------. 3 root root 4096 May 17 16:41 metadata
+
+/var/lib/docker/image/overlay2/imagedb/content:
+total 4
+drwx------. 2 root root 4096 May 17 16:41 sha256
+
+/var/lib/docker/image/overlay2/imagedb/content/sha256:
+total 0
+
+/var/lib/docker/image/overlay2/imagedb/metadata:
+total 4
+drwx------. 2 root root 4096 May 17 16:41 sha256
+
+/var/lib/docker/image/overlay2/imagedb/metadata/sha256:
+total 0
+
+/var/lib/docker/image/overlay2/layerdb:
+total 0
+
+/var/lib/docker/volumes:
+total 24
+-rw-------. 1 root root 32768 May 17 16:41 metadata.db
+
+/var/lib/docker/plugins:
+total 8
+drwx------. 3 root root 4096 May 17 16:41 storage
+drwx------. 2 root root 4096 May 17 16:41 tmp
+
+/var/lib/docker/plugins/storage:
+total 4
+drwx------. 3 root root 4096 May 17 16:41 blobs
+
+/var/lib/docker/plugins/storage/blobs:
+total 4
+drwx------. 2 root root 4096 May 17 16:41 tmp
+
+/var/lib/docker/plugins/storage/blobs/tmp:
+total 0
+
+/var/lib/docker/plugins/tmp:
+total 0
+
+/var/lib/docker/containers:
+total 0
+
+/var/lib/docker/runtimes:
+total 0
