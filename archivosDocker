@@ -1,1 +1,162 @@
+/home/docker
+/run/docker
+/etc/docker
+/var/lib/docker
+/var/spool/mail/docker
+/usr/bin/docker
+/usr/share/bash-completion/completions/docker
+/usr/libexec/docker
+/home/docker:
+total 0
+/run/docker:
+total 0
+drwx------. 2 root root 40 May 17 19:59 swarm
+drw-------. 2 root root 60 May 17 19:59 libnetwork
+drwx------. 2 root root 40 May 17 19:59 plugins
+srwxr-xr-x. 1 root root  0 May 17 19:59 metrics.sock
 
+/run/docker/swarm:
+total 0
+
+/run/docker/libnetwork:
+total 0
+srw-------. 1 root root 0 May 17 19:59 62ff06902ec5.sock
+
+/run/docker/plugins:
+total 0
+/etc/docker:
+total 4
+-rw-------. 1 root root 244 May 17 19:59 key.json
+/var/lib/docker:
+total 0
+drwx------. 2 root root  6 May 17 19:59 tmp
+drwx--x--x. 4 root root 92 May 17 19:59 buildkit
+drwx------. 2 root root 24 May 17 19:59 builder
+drwx------. 2 root root  6 May 17 19:59 swarm
+drwx------. 3 root root 15 May 17 19:59 overlay2
+drwxr-x---. 3 root root 19 May 17 19:59 network
+drwx------. 2 root root  6 May 17 19:59 trust
+drwx------. 3 root root 22 May 17 19:59 image
+drwx------. 2 root root 25 May 17 19:59 volumes
+drwx------. 4 root root 32 May 17 19:59 plugins
+drwx------. 2 root root  6 May 17 19:59 containers
+drwx------. 2 root root  6 May 17 19:59 runtimes
+
+/var/lib/docker/tmp:
+total 0
+
+/var/lib/docker/buildkit:
+total 56
+-rw-------. 1 root root 32768 May 17 19:59 cache.db
+drwx--x--x. 2 root root     6 May 17 19:59 executor
+drwxr-xr-x. 3 root root    20 May 17 19:59 content
+-rw-------. 1 root root 16384 May 17 19:59 metadata.db
+-rw-------. 1 root root 16384 May 17 19:59 snapshots.db
+
+/var/lib/docker/buildkit/executor:
+total 0
+
+/var/lib/docker/buildkit/content:
+total 0
+drwxr-xr-x. 2 root root 6 May 17 19:59 ingest
+
+/var/lib/docker/buildkit/content/ingest:
+total 0
+
+/var/lib/docker/builder:
+total 16
+-rw-------. 1 root root 16384 May 17 19:59 fscache.db
+
+/var/lib/docker/swarm:
+total 0
+
+/var/lib/docker/overlay2:
+total 0
+drwx------. 2 root root 6 May 17 19:59 l
+
+/var/lib/docker/overlay2/l:
+total 0
+
+/var/lib/docker/network:
+total 0
+drwxr-x---. 2 root root 25 May 17 19:59 files
+
+/var/lib/docker/network/files:
+total 32
+-rw-r--r--. 1 root root 65536 May 17 19:59 local-kv.db
+
+/var/lib/docker/trust:
+total 0
+
+/var/lib/docker/image:
+total 0
+drwx------. 5 root root 81 May 17 19:59 overlay2
+
+/var/lib/docker/image/overlay2:
+total 4
+drwx------. 2 root root  6 May 17 19:59 distribution
+-rw-------. 1 root root 19 May 17 19:59 repositories.json
+drwx------. 4 root root 37 May 17 19:59 imagedb
+drwx------. 2 root root  6 May 17 19:59 layerdb
+
+/var/lib/docker/image/overlay2/distribution:
+total 0
+
+/var/lib/docker/image/overlay2/imagedb:
+total 0
+drwx------. 3 root root 20 May 17 19:59 content
+drwx------. 3 root root 20 May 17 19:59 metadata
+
+/var/lib/docker/image/overlay2/imagedb/content:
+total 0
+drwx------. 2 root root 6 May 17 19:59 sha256
+
+/var/lib/docker/image/overlay2/imagedb/content/sha256:
+total 0
+
+/var/lib/docker/image/overlay2/imagedb/metadata:
+total 0
+drwx------. 2 root root 6 May 17 19:59 sha256
+
+/var/lib/docker/image/overlay2/imagedb/metadata/sha256:
+total 0
+
+/var/lib/docker/image/overlay2/layerdb:
+total 0
+
+/var/lib/docker/volumes:
+total 24
+-rw-------. 1 root root 32768 May 17 19:59 metadata.db
+
+/var/lib/docker/plugins:
+total 0
+drwx------. 3 root root 19 May 17 19:59 storage
+drwx------. 2 root root  6 May 17 19:59 tmp
+
+/var/lib/docker/plugins/storage:
+total 0
+drwx------. 3 root root 17 May 17 19:59 blobs
+
+/var/lib/docker/plugins/storage/blobs:
+total 0
+drwx------. 2 root root 6 May 17 19:59 tmp
+
+/var/lib/docker/plugins/storage/blobs/tmp:
+total 0
+
+/var/lib/docker/plugins/tmp:
+total 0
+
+/var/lib/docker/containers:
+total 0
+
+/var/lib/docker/runtimes:
+total 0
+/usr/libexec/docker:
+total 0
+drwxr-xr-x. 2 root root 45 May 11 18:05 cli-plugins
+
+/usr/libexec/docker/cli-plugins:
+total 85324
+-rwxr-xr-x. 1 root root 44771992 Mar 10 21:30 docker-app
+-rwxr-xr-x. 1 root root 42597112 Mar 10 21:30 docker-buildx
