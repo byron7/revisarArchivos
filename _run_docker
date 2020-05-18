@@ -1,1 +1,8 @@
+/run/docker
+├── libnetwork
+│   └── 62ff06902ec5.sock
+├── metrics.sock
+├── plugins
+└── swarm
 
+3 directories, 2 files
