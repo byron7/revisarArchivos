@@ -1,0 +1,39 @@
+/var/lib/docker
+├── builder
+│   └── fscache.db
+├── buildkit
+│   ├── cache.db
+│   ├── content
+│   │   └── ingest
+│   ├── executor
+│   ├── metadata.db
+│   └── snapshots.db
+├── containers
+├── image
+│   └── overlay2
+│       ├── distribution
+│       ├── imagedb
+│       │   ├── content
+│       │   │   └── sha256
+│       │   └── metadata
+│       │       └── sha256
+│       ├── layerdb
+│       └── repositories.json
+├── network
+│   └── files
+│       └── local-kv.db
+├── overlay2
+│   └── l
+├── plugins
+│   ├── storage
+│   │   └── blobs
+│   │       └── tmp
+│   └── tmp
+├── runtimes
+├── swarm
+├── tmp
+├── trust
+└── volumes
+    └── metadata.db
+
+29 directories, 7 files
