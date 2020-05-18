@@ -1,1 +1,6 @@
+/usr/libexec/docker
+└── cli-plugins
+    ├── docker-app
+    └── docker-buildx
 
+1 directory, 2 files
